@@ -1,0 +1,11 @@
+README.md
+setup.py
+src/pyaz/__init__.py
+src/pyaz/cli.py
+src/pyaz/version.py
+src/pyaz.egg-info/PKG-INFO
+src/pyaz.egg-info/SOURCES.txt
+src/pyaz.egg-info/dependency_links.txt
+src/pyaz.egg-info/entry_points.txt
+src/pyaz.egg-info/requires.txt
+src/pyaz.egg-info/top_level.txt
