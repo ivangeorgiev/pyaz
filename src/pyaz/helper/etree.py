@@ -24,15 +24,17 @@ def as_etree(doc, root_tag='root', item_tag='item'):
     tree = etree.Element(root_tag)
     return append_to_element(tree, doc, item_tag)
 
-def as_table(doc, path_item, field_map:dict, header_row=False, path_root='/', output_fields=None):
+def as_table(doc, field_map:dict, path_item=None, path_root=None, output_fields=None, header_row=None, ):
     def _map_field(item, xpath):
         result = ''
         for match in item.xpath(xpath):
             result += match.text
         return result
 
-    if not output_fields:
-        output_fields = tuple(field_map.keys())
+    path_item = path_item or 'item'
+    path_root = path_root or '/root'
+    header_row = header_row or False
+    output_fields = output_fields or tuple(field_map.keys())
     if header_row:
         yield tuple(output_fields)
     for root in doc.xpath(path_root):

@@ -1,0 +1,20 @@
+{
+    "root_name": "root",
+    "item_name": "__item__",
+    "root_path": "/root",
+    "item_path": "__item__",
+    "field_map": {
+        "id": "id",
+        "uri": "uri",
+        "build_number": "build_number",
+        "status": "status",
+        "result": "result",
+        "queue_time": "queue_time",
+        "start_time": "start_time",
+        "finish_time": "finish_time",
+        "definition_id": "definition/id",
+        "definition_name": "definition/name",
+        "definition_uri": "definition/uri"
+    },
+    "header_row": true
+}

@@ -1,0 +1,25 @@
+{
+    "root_name": "root",
+    "item_name": "item",
+    "root_path": "/root",
+    "item_path": "item",
+    "field_map": {
+        "id": "id",
+        "name": "name",
+        "url": "url",
+        "web_url": "web_access_url",
+        "revision": "revision",
+        "state": "state",
+        "is_automated": "is_automated",
+        "total_tests": "total_tests",
+        "passed_tests": "passed_tests",
+        "incomplete_tests": "incomplete_tests",
+        "not_applicable_tests": "not_applicable_tests",
+        "unanalyzed_tests": "unanalyzed_tests",
+        "build_id": "build/id",
+        "release_definition_id": "release/definition_id",
+        "release_environment_id": "release/environment_id",
+        "release_environment_definition_id": "release/environment_definition_id"
+    },
+    "header_row": true
+}
