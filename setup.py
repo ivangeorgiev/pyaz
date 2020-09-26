@@ -1,8 +1,7 @@
 import setuptools
-from collections import Iterable
 
 def read_file(file_name):
-    file_names = (file_name,) if isinstance(file_name, Iterable) else file_name
+    file_names = (file_name,) if isinstance(file_name, str) else file_name
     contents = []
     for fname in file_names:
         with open(fname, encoding="utf-8") as f:
@@ -27,7 +26,8 @@ setuptools.setup(
     package_dir={'':'src'},
     install_requires=[
         'click',
-        'python-dotenv'
+        'python-dotenv',
+        'azure-devops',
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
