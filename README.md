@@ -1,0 +1,2 @@
+# azpy
+Pythonic Azure
