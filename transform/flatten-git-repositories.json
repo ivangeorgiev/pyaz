@@ -1,0 +1,17 @@
+{
+    "root_name": "root",
+    "item_name": "__item__",
+    "root_path": "/root",
+    "item_path": "__item__",
+    "field_map": {
+        "name": "name",
+        "size": "size",
+        "id": "id",
+        "web_url": "web_url",
+        "url": "url",
+        "is_fork": "is_fork",
+        "project_id": "project/id",
+        "project_name": "project/name"
+    },
+    "header_row": true
+}

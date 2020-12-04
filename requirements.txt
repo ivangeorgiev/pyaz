@@ -1,3 +1,4 @@
 click
 azure-devops
 pytest
+lxml

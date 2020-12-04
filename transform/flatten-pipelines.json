@@ -1,0 +1,17 @@
+{
+    "root_name": "root",
+    "item_name": "__item__",
+    "root_path": "/root",
+    "item_path": "__item__",
+    "field_map": {
+        "name": "name",
+        "id": "id",
+        "folder": "folder",
+        "revision": "revision",
+        "type": "configuration/type",
+        "path": "configuration/additional_properties/path",
+        "repository_id": "configuration/additional_properties/repository/id",
+        "repository_type": "configuration/additional_properties/repository/type"
+    },
+    "header_row": true
+}
